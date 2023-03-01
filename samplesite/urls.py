@@ -20,6 +20,4 @@ from board.views import index
 urlpatterns = [
     path('board/', include('board.urls')),
     path('admin/', admin.site.urls),
-
-
 ]
